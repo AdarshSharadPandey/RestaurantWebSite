@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+html {
+	font-size: 10px;
+	overflow-x: hidden;
+}
+body {
+	background: var(--lightGreen-2);
+	overflow-x: hidden;
+	visibility: hidden;
+}
+section {
+	padding: 100px 0;
+}
+@media only screen and (max-width: 767px) {
+	section {
+		padding: 50px 0;
+	}
+}
+.container {
+	max-width: 1200px;
+	width: 90%;
+	margin: 0 auto;
+}
+:root {
+	--green-1: #26643b;
+	--green-2: #a2de96;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-1: #3b413a;
+	--black-2: #3f3c3c;
+	--black-3: #5b6359;
+	--white-1: #e8e8e8;
+}
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+h1,
+h2,
+h3,
+h4 {
+	font-family: Poppins;
+}
+p {
+	font-family: Raleway;
+	font-weight: 400;
+	line-height: 1.4em;
+	font-size: 1.8rem;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+.logo{
+	width: 80px;
+}
+.feather.feather-menu{
+	width: 70px;
+	position: absolute;
+	top: 30px;
+	left: 150px;
+}
+.feather.feather-x{
+	position: relative;
+	bottom: 40px;
+	width: 70px;
+	float: right;
+}
+.nav__link{
+	float: left;
+	background-color: green;
+	color: white;
+	font-size: 30px;
+	margin: 2px;
+	padding: 5px;
+	position: relative;
+	left: 300px;
+	bottom: 50px;
+}
+.btn.primary-btn{
+	font-family: cursive;
+	font-size: 20px;
+	background-color: green;
+	border-style: dashed;
+	border-width: 2px;
+	padding: 10px;
+	color: white;
+}
+.btn{
+	font-family: cursive;
+	font-size: 20px;
+	background-color: green;
+	border-style: dashed;
+	border-width: 2px;
+	padding: 10px;
+	color: white;
+}
+#storeInfo img{
+	float: center;
+	width: 100px;
+	align-content: center;
+	margin-top: 100px;
+	position: relative;
+	left: 200px;
+}
+.storeInfo__title{
+	font-size: 30px ;
+	float: right;
+	text-align: left;
+	position: relative;
+	bottom: 50px;
+	right: 200px;
+}
+.storeInfo__text{
+	line-height: 30px;
+	position: relative;
+	left: 200px;
+}
+.dishGrid__item__img{
+	width: 200px;
+	border: solid;
+	border-width: 2px;
+	border-color: green;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	position: relative;
+	left: 300px;
+}
+.dishGrid__item__stars{
+	width: 100px;
+	margin: 10px;
+	position: relative;
+	left: 300px;
+}
+.dishGrid__item__title{
+	font-size: 30px;
+	float: right;
+	position: relative;
+	right: 300px;
+	bottom: 100px;
+}
+.dishGrid__item__price{
+	font-size: 20px;
+	position: relative;
+	left: 320px;
+}
+.dishGrid__title{
+	font-size: 50px;
+	color: darkgreen;
+	text-align: center;
+}
+.footer__logo{
+	position: relative;
+	left: 380px;
+	width: 400px;
+	margin-bottom: 10px;
+}
+.footer__desc{
+	font-style: italic;
+	position: relative;
+	left: 320px;
+	color: darkgreen;
+}
+.footer__socials__title{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.feather.feather-facebook{
+	position: relative;
+	left: 550px;
+	top: 10px;
+}
+.feather.feather-instagram{
+	position: relative;
+	left: 580px;
+	bottom: 15px;
+}
+.feather.feather-twitter{
+	position: relative;
+	left: 610px;
+	bottom: 40px;
+}
+.footer__text__title{
+	font-size: 20px;
+}
+.footer__col2{
+	margin-left: 300px;
+}
+.footer__text{
+	font-size: 18px;
+}
+.footer__col3{
+	position: relative;
+	left: 550px;
+	bottom: 130px;
+}
+.footer__col4{
+	position: relative;
+	left: 800px;
+	bottom: 205px;
+}
+.copyright__text{
+	float: right;
+}
+.form__group{
+	margin-top: 10px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#form{
+	position: relative;
+	left: 300px;
+}
+.form__title{
+	font-size: 50px;
+	margin-bottom: 30px;
+}
